@@ -1,21 +1,34 @@
 <script setup lang="ts">
+import { ref } from 'vue';
 import NavigationBar from './NavigationBar.vue';
+import AboutSection from './AboutSection.vue';
+import ScheduleSection from './ScheduleSection.vue';
 
-defineProps<{ msg: string }>();
+const currentSection = ref('home'); // 'home', 'about', o 'cronograma'
+
+const handleCronogramaClicked = () => {
+  currentSection.value = 'cronograma';
+};
+
+const handleAboutClicked = () => {
+  currentSection.value = 'about';
+};
+
+const handleHomeClicked = () => {
+  currentSection.value = 'home';
+};
 </script>
 
 <template>
   <div class="flex flex-col h-screen">
-    <header>
-      <h1 class="text-4xl font-medium">{{ msg }}</h1>
-      <NavigationBar />
-    </header>
-
-    <footer class="mt-auto p-4 bg-gray-200 w-full">
-      <p class="text-center text-sm">
-        © 2023 ExpoHogar App. Todos los derechos reservados.
-      </p>
-    </footer>
+    <NavigationBar 
+      @about-clicked="handleAboutClicked"
+      @cronograma-clicked="handleCronogramaClicked"
+      @home-clicked="handleHomeClicked"
+    />
+    <AboutSection v-if="currentSection === 'about'" />
+    <ScheduleSection v-if="currentSection === 'cronograma'" />
+    <!-- Aquí podrías añadir el contenido de la página de inicio si 'currentSection' es 'home' -->
   </div>
 </template>
 
