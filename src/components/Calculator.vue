@@ -1,54 +1,48 @@
-<script setup lang="ts">import { Ref, ref } from '@vue/runtime-dom';
-  const num1:Ref<number> = ref<number>(0);
-  const num2:Ref<number> = ref<number>(0);
-  const result:Ref<number> = ref<number>(0);
-  console.log(num1.value);
-  const sumar = () => {
-    result.value = num1.value + num2.value;
-    console.log(result.value);
-  }
-
-  const numberCondition: RegExp = /^-?\d+$/;
-
-  const changeValueNum1 = (event:any) => {
-    const value:string = event.target.value;
-    if(numberCondition.test(value)){
-      num1.value = Number(value);
-      console.log(num1.value);
-    }else{
-      console.log("no es un numero");
-    }
-  };
-
-  const changeValueNum2 = (event:any) => {
-    const value:string = event.target.value;
-    if(numberCondition.test(value)){
-      num2.value = Number(value);
-      console.log(num2.value);
-    }else{
-      console.log("no es un numero");
-    }
-  };
-</script>
 <template>
-  <div class="container mx-auto mt-12">
-    <h1 class="text-3xl font-semibold mb-6">Calculadora Vue 3</h1>
-    <div class="mb-4">
-      <label for="num1" class="block text-sm font-medium text-gray-700">Número 1:</label>
-      <input @input="changeValueNum1" @value="num1"
-      type="text" class="mt-1 p-2 border border-gray-300 rounded-md w-full" />
-    </div>
-    <div class="mb-4">
-      <label for="num2" class="block text-sm font-medium text-gray-700">Número 2:</label>
-      <input @input="changeValueNum2" @value="num2"
-      type="text" class="mt-1 p-2 border border-gray-300 rounded-md w-full" />
-    </div>
-    <button @click="sumar" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
-      Sumar
-    </button>
-    <div class="mt-6">
-      <h2 class="text-xl font-semibold mb-2">Resultado:</h2>
-      <p class="text-lg font-medium">{{ result }}</p>
+  <div class="flex flex-col w-full h-screen">
+    <!-- Navbar -->
+    <nav class="w-full bg-gray-500 py-4 text-white flex justify-between items-center">
+      <!-- Logo -->
+      <img src="ruta/a/tu/logo.png" alt="Logo" class="h-8 mr-4"> <!-- Ajusta la ruta de la imagen y el tamaño según sea necesario -->
+
+      <!-- Navigation Buttons -->
+      <div class="flex items-center gap-2">
+        <button class="px-3 py-2 rounded-md hover:bg-gray-700">Inicio</button>
+        <button class="px-3 py-2 rounded-md hover:bg-gray-700">Servicios</button>
+        <button class="px-3 py-2 rounded-md hover:bg-gray-700">Productos</button>
+        <button class="px-3 py-2 rounded-md hover:bg-gray-700">Acerca de</button>
+        <button class="px-3 py-2 rounded-md hover:bg-gray-700">Contacto</button>
+      </div>
+
+      <!-- User icon or button -->
+      <div>
+        <!-- Botón Usuario redondo -->
+        <button class="bg-blue-500 w-12 h-12 rounded-full flex justify-center items-center hover:bg-blue-600">
+          <span class="text-lg">U</span> <!-- Icono o iniciales del usuario aquí -->
+        </button>
+      </div>
+    </nav>
+    
+    <!-- Textbox Section -->
+    <div class="flex-grow">
+      <label for="eventDescription" class="block text-lg font-medium text-gray-700 mb-2">
+        Descripción del Evento
+      </label>
+      <textarea 
+        id="eventDescription"
+        rows="4" 
+        readonly
+        class="shadow-sm mt-1 block w-full h-full sm:text-sm border border-gray-300 rounded-md">
+        Este es el texto predefinido que se muestra en la casilla de texto. El usuario no puede editar este texto desde la interfaz de usuario.
+      </textarea>
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+// No hay lógica de script necesaria para este componente estático
+</script>
+
+<style>
+/* No se especificaron estilos adicionales */
+</style>

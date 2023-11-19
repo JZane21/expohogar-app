@@ -1,30 +1,33 @@
 <script setup lang="ts">
 import Calculator from './Calculator.vue';
 
-defineProps<{ msg: string }>()
-
+defineProps<{ msg: string }>();
 </script>
 
 <template>
-  <h1 class="text-4xl font-medium">{{ msg }}</h1>
-  <div class="card">
-    <Calculator/>
-    <p>
-      Edit
-      <code>components/HelloWorld.vue</code> to test HMR
-    </p>
-  </div>
+  <div class="flex flex-col h-screen">
+    <!-- Navbar y contenido principal aquí -->
+    <header>
+      <!-- Contenido del componente de la calculadora -->
+      <h1 class="text-4xl font-medium">{{ msg }}</h1>
+      <Calculator />
+      <!-- Logotipos de Vite y Vue eliminados -->
+    </header>
 
-  <p>
-    Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
-  </p>
-  <p>
-    Install
-    <a href="https://github.com/vuejs/language-tools" target="_blank">Volar</a>
-    in your IDE for a better DX
-  </p>
-  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
+    <!-- Pie de página -->
+    <footer class="mt-auto p-4 bg-gray-200">
+      <p class="text-center text-sm">
+        
+      </p>
+    </footer>
+  </div>
 </template>
+
+<style>
+/* Estilos para el footer para que se mantenga al fondo */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+}
+</style>
