@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Calculator from './Calculator.vue';
+import MainScreen from './MainScreen.vue.js';
 
 defineProps<{ msg: string }>();
 </script>
@@ -10,7 +10,7 @@ defineProps<{ msg: string }>();
     <header>
       <!-- Contenido del componente de la calculadora -->
       <h1 class="text-4xl font-medium">{{ msg }}</h1>
-      <Calculator />
+      <MainScreen />
       <!-- Logotipos de Vite y Vue eliminados -->
     </header>
 
