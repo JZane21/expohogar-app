@@ -1,13 +1,11 @@
 <script setup lang="ts">
 import NavigationBar from './NavigationBar.vue';
 
-defineProps<{ msg: string }>();
 </script>
 
 <template>
   <div class="flex flex-col min-h-screen w-full justify-start">
     <header>
-      <h1 class="text-4xl font-medium">{{ msg }}</h1>
       <NavigationBar />
       <RouterView/>
     </header>
