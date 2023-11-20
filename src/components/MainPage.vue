@@ -5,10 +5,11 @@ defineProps<{ msg: string }>();
 </script>
 
 <template>
-  <div class="flex flex-col h-screen">
+  <div class="flex flex-col min-h-screen w-full justify-start">
     <header>
       <h1 class="text-4xl font-medium">{{ msg }}</h1>
       <NavigationBar />
+      <RouterView/>
     </header>
 
     <footer class="mt-auto p-4 bg-gray-200 w-full">
