@@ -3,8 +3,9 @@ import { ref } from 'vue';
 import NavigationBar from './NavigationBar.vue';
 import AboutSection from './AboutSection.vue';
 import ScheduleSection from './ScheduleSection.vue';
+import ContratosPage from './ContratosPage.vue'; // Asegúrate de que la ruta de importación sea correcta
 
-const currentSection = ref('home'); // 'home', 'about', o 'cronograma'
+const currentSection = ref('home'); // 'home', 'about', 'cronograma', 'contratos'
 
 const handleCronogramaClicked = () => {
   currentSection.value = 'cronograma';
@@ -17,6 +18,10 @@ const handleAboutClicked = () => {
 const handleHomeClicked = () => {
   currentSection.value = 'home';
 };
+
+const handleContratosClicked = () => {
+  currentSection.value = 'contratos';
+};
 </script>
 
 <template>
@@ -25,17 +30,15 @@ const handleHomeClicked = () => {
       @about-clicked="handleAboutClicked"
       @cronograma-clicked="handleCronogramaClicked"
       @home-clicked="handleHomeClicked"
+      @contratos-clicked="handleContratosClicked" 
     />
     <AboutSection v-if="currentSection === 'about'" />
     <ScheduleSection v-if="currentSection === 'cronograma'" />
-    <!-- Aquí podrías añadir el contenido de la página de inicio si 'currentSection' es 'home' -->
+    <ContratosPage v-if="currentSection === 'contratos'" />
+    <!-- Agrega aquí contenido adicional para la página de inicio o cualquier otra sección -->
   </div>
 </template>
 
 <style>
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
+/* Estilos adicionales si son necesarios */
 </style>
