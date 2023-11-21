@@ -131,12 +131,96 @@
               </div>
           </div>
       </div>
-  </div>
+      <h2 class="text-xl font-semibold mb-4">Plan de Gestión de Riesgos</h2>
+            <div class="overflow-y-auto max-h-96 p-4 border border-gray-300 rounded-lg mb-6">
+                <div class="border border-gray-300 p-4 rounded-lg">
+                    <h3 class="text-lg font-semibold mb-2">Plan de Gestión de Riesgos para el Sitio Web de EXPOHOGAR</h3>
+                    <p>
+                    Este plan de gestión de riesgos tiene como objetivo identificar, evaluar y mitigar los riesgos asociados al desarrollo y mantenimiento del sitio web de EXPOHOGAR. Se centra específicamente en los riesgos técnicos y de personal para garantizar la efectividad en la gestión de problemas durante el proyecto.
+                    </p>
+                    <h4 class="font-semibold">a.- Riesgos Técnicos:</h4>
+                    <ul>
+                    <li>Vulnerabilidades de seguridad en el sitio.</li>
+                    <li>Interrupciones del servicio debido a fallas en la infraestructura tecnológica.</li>
+                    <li>Incompatibilidad con navegadores y dispositivos.</li>
+                    <li>Pérdida de datos debido a fallos en las copias de seguridad.</li>
+                    </ul>
+                    <h4 class="font-semibold">b.- Riesgos de Personal:</h4>
+                    <ul>
+                    <li>Falta de habilidades específicas en el equipo, como se identifica en el Riesgo 5.</li>
+                    <li>Problemas de comunicación interna y con el cliente, relacionados con los Riesgos 1, 3, 7, 9 y 10.</li>
+                    </ul>
+                </div>
+                <!-- Estrategias de Mitigación -->
+                <div class="border border-gray-300 p-4 rounded-lg mt-4">
+                    <h3 class="text-lg font-semibold mb-2">Estrategias de Mitigación</h3>
+                    <h4 class="font-semibold">Vulnerabilidades de seguridad en el sitio</h4>
+                    <p>Estrategia: Implementar configuraciones de seguridad y documentarlas para identificar problemas estructurados.</p>
 
+                    <h4 class="font-semibold">Interrupciones de servicio debido a fallas en la infraestructura tecnológica</h4>
+                    <p>Estrategia: Establecer un equipo de soporte y registrar detalladamente los fallos del sistema.</p>
+
+                    <h4 class="font-semibold">Incompatibilidad con navegadores y dispositivos</h4>
+                    <p>Estrategia: Evaluar y asegurar un diseño responsive para compatibilidad con todos los dispositivos.</p>
+
+                    <h4 class="font-semibold">Pérdida de datos debido a fallos en las copias de seguridad</h4>
+                    <p>Estrategia: Realizar seguimiento de respaldos de la información proporcionada por el cliente y generada por los usuarios.</p>
+
+                    <h4 class="font-semibold">Falta de habilidades específicas en el equipo</h4>
+                    <p>Estrategia: Implementar una estrategia colaborativa interna para abordar debilidades en el desarrollo.</p>
+
+                    <h4 class="font-semibold">Problemas de comunicación interna y con el cliente</h4>
+                    <p>Estrategia: Coordinar ceremonias importantes y establecer resoluciones efectivas para conflictos y decisiones cruciales.</p>
+                </div>
+                <!-- Plan de Contingencia -->
+                <div class="border border-gray-300 p-4 rounded-lg mt-4">
+                    <h3 class="text-lg font-semibold mb-2">Plan de Contingencia</h3>
+                    <p>Respuesta a Fallas Técnicas: Equipo de soporte técnico y procedimientos de respaldo y recuperación para mitigar la pérdida de datos.</p>
+                    <p>Manejo de Retrasos o Cambios Inesperados: Recursos adicionales o flexibilidad en el cronograma, y técnicas de estimación como "Poker Planning".</p>
+                    <p>Sobrecostos o Problemas Financieros: Fondo de reserva para gastos imprevistos y ajuste del alcance del proyecto.</p>
+                    <p>Problemas de Comunicación: Puntos de contacto alternativos y revisión de estrategias de comunicación.</p>
+                    <p>Resolución de conflictos y sesiones de aclaración para garantizar una comunicación efectiva dentro del equipo y con el cliente.</p>
+                </div>
+            </div>
+            <!-- Herramientas -->
+            <h2 class="text-xl font-semibold mb-4">Herramientas</h2>
+            <div class="overflow-y-auto max-h-96 p-4 border border-gray-300 rounded-lg mb-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <!-- Herramienta: Trello -->
+                    <div class="border border-gray-300 p-4 rounded-lg">
+                    <h3 class="text-lg font-semibold mb-2">Trello</h3>
+                    <p>Tras evaluar diferentes herramientas, se eligió Trello para la gestión del proyecto debido a:</p>
+                    <ul>
+                        <li>Familiaridad del equipo con Trello en comparación con otras herramientas.</li>
+                        <li>Adecuación para equipos de desarrollo de tamaño reducido.</li>
+                        <li>Facilidad de colaboración en tiempo real en tarjetas y tableros, lo cual mejora la comunicación y coordinación.</li>
+                    </ul>
+                </div>
+
+                <!-- Herramienta: Figma -->
+                <div class="border border-gray-300 p-4 rounded-lg">
+                <h3 class="text-lg font-semibold mb-2">Figma</h3>
+                <p>Después de evaluar diversas opciones, se eligió Figma para el diseño del proyecto debido a:</p>
+                <ul>
+                    <li>Amplia gama de herramientas para crear interfaces, prototipos y colaborar en tiempo real.</li>
+                    <li>Funcionamiento en el navegador, evitando la necesidad de descargar software adicional.</li>
+                    <li>Capacidad para crear prototipos interactivos y simular la experiencia del usuario.</li>
+                    <li>Prototipado para probar la navegación y funcionalidad antes de la implementación.</li>
+                    <li>Colaboración y retroalimentación en tiempo real entre los miembros del equipo.</li>
+                </ul>
+                </div>
+            </div>
+            <!-- Cuadrado Vacío 1 -->
+            <div class="border border-gray-300 p-4 rounded-lg">
+                <!-- Contenido vacío -->
+            </div>
+        </div>
+    </div>
 </template>
 
 <script setup lang="ts">
 </script>
 
 <style>
+
 </style>
