@@ -9,19 +9,16 @@ import NavigationBar from './NavigationBar.vue';
       <NavigationBar />
       <RouterView/>
     </header>
-
+    <!-- 
     <footer class="mt-auto p-4 bg-gray-200 w-full">
       <p class="text-center text-sm">
-        © 2023 ExpoHogar App. Todos los derechos reservados.
+        © 2023 ExpoHogar App. Todos los derechos reservados. 
       </p>
     </footer>
+    -->
   </div>
 </template>
 
 <style>
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
+/* Estilos adicionales si son necesarios */
 </style>
