@@ -10,7 +10,7 @@
 
     </div>
     <button class="bg-blue-500 w-12 h-12 rounded-full flex justify-center items-center hover:bg-blue-600">
-      <span class="text-lg">U</span> <!-- Icono o iniciales del usuario aquí -->
+      <span class="text-lg">U</span>
     </button>
   </nav>
 </template>

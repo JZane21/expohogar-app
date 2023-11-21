@@ -20,9 +20,5 @@ import NavigationBar from './NavigationBar.vue';
 </template>
 
 <style>
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
+/* Estilos adicionales si son necesarios */
 </style>
