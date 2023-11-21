@@ -5,15 +5,15 @@
             <h2 class="text-lg font-semibold mb-2">Contrato de Servicios para el Desarrollo de Sitio Web</h2>
             <pre class="contrato-texto">
                 
-Contrato de Servicios para el Desarrollo de Sitio Web
+              Contrato de Servicios para el Desarrollo de Sitio Web
 
-Entre [Nombre de la Empresa de Desarrollo Web] y EXPOHOGAR
+Entre [Nombre de la Empresa de Desarrollo Web] y [Nombre de la Organización de EXPOHOGAR]
 
-Fecha: [Fecha]
+Fecha: [Fecha de inicio del proyecto]
 
 Preámbulo
 
-Este contrato se establece entre [Nombre de la Empresa de Desarrollo Web] (en adelante, "el Proveedor") y [Nombre de la Organización de EXPOHOGAR] (en adelante, "el Cliente"), con el propósito de desarrollar y lanzar el sitio web del evento empresarial y de exposición de productos y servicios para el hogar EXPOHOGAR, conforme a los Términos de Referencia proporcionados.
+Este contrato se establece entre [Nombre de la Empresa de Desarrollo Web] (en adelante, "el Proveedor") y [Nombre de la Organización de EXPOHOGAR] (en adelante, "el Cliente"), con el propósito de desarrollar y lanzar el sitio web del evento empresarial y de exposición de productos y servicios para el hogar EXPOHOGAR, conforme a los Términos de Referencia proporcionados. El período del proyecto será de tres meses a partir de la fecha de inicio.
 
 1. Alcance del Proyecto
 
@@ -26,12 +26,12 @@ El Proveedor se compromete a diseñar y desarrollar un sitio web que incluya:
 
 2. Cronograma y Entregables
 
-El proyecto se desarrollará según el siguiente cronograma y entregables:
+El proyecto se desarrollará durante un período de tres meses, con los siguientes cronograma y entregables:
 
-- Fase 1: Planificación y desarrollo inicial, entrega [Fecha].
-- Fase 2: Desarrollo y pruebas, entrega [Fecha].
-- Fase 3: Lanzamiento y capacitación, entrega [Fecha].
-- Fase 4: Mantenimiento y soporte, inicio [Fecha].
+- Fase 1: Planificación y desarrollo inicial, entrega [Fecha - un mes después del inicio].
+- Fase 2: Desarrollo y pruebas, entrega [Fecha - dos meses después del inicio].
+- Fase 3: Lanzamiento y capacitación, entrega [Fecha - tres meses después del inicio].
+- Fase 4: Inicio del mantenimiento y soporte, [Fecha - tras el lanzamiento].
 
 3. Compromisos del Cliente
 
@@ -65,6 +65,9 @@ _____________________
 _____________________
 [Nombre y firma del representante de EXPOHOGAR]
 
+https://docs.google.com/document/d/1jr_wlWRF3MtDzb8rCBY_plVACNt3MOAUccaTX8BVlIA/edit?usp=sharing
+
+
             </pre>
         </div>
 
@@ -74,17 +77,19 @@ _____________________
             <pre class="contrato-texto">
                 Contrato de Cierre de Proyecto para el Desarrollo del Sitio Web de EXPOHOGAR
 
-Entre [Nombre de la Empresa de Desarrollo Web] y EXPOHOGAR
+                Contrato de Cierre de Proyecto para el Desarrollo del Sitio Web de EXPOHOGAR
 
-Fecha: [Fecha]
+Entre [Nombre de la Empresa de Desarrollo Web] y [Nombre de la Organización de EXPOHOGAR]
+
+Fecha: [Fecha - tres meses después del inicio del proyecto]
 
 Preámbulo
 
-Este contrato de cierre de proyecto reconoce la finalización satisfactoria del desarrollo del sitio web de EXPOHOGAR por parte de [Nombre de la Empresa de Desarrollo Web] (en adelante, "el Proveedor") y marca la conclusión del contrato de servicios establecido con [Nombre de la Organización de EXPOHOGAR] (en adelante, "el Cliente"), de acuerdo con los términos y condiciones previamente acordados.
+Este contrato de cierre de proyecto reconoce la finalización satisfactoria del desarrollo del sitio web de EXPOHOGAR por parte de [Nombre de la Empresa de Desarrollo Web] (en adelante, "el Proveedor") y marca la conclusión del contrato de servicios establecido con [Nombre de la Organización de EXPOHOGAR] (en adelante, "el Cliente"), tres meses después de su inicio, de acuerdo con los términos y condiciones previamente acordados.
 
 1. Confirmación de la Entrega del Proyecto
 
-El Proveedor confirma que ha completado todos los servicios descritos en el contrato de desarrollo del sitio web, incluyendo:
+El Proveedor confirma que, tres meses después del inicio del proyecto, ha completado todos los servicios descritos en el contrato de desarrollo del sitio web, incluyendo:
 
 - Desarrollo y diseño del sitio web.
 - Implementación de funcionalidades según los Términos de Referencia.
@@ -113,7 +118,7 @@ Ambas partes acuerdan mantener la confidencialidad de la información compartida
 
 6. Cláusulas Finales
 
-Este contrato marca la conclusión formal del proyecto de desarrollo del sitio web de EXPOHOGAR. Cualquier servicio adicional o modificaciones posteriores requerirán un nuevo acuerdo contractual.
+Este contrato marca la conclusión formal del proyecto de desarrollo del sitio web de EXPOHOGAR tres meses después de su inicio. Cualquier servicio adicional o modificaciones posteriores requerirán un nuevo acuerdo contractual.
 
 Firmas
 
@@ -122,6 +127,8 @@ _____________________
 
 _____________________
 [Nombre y firma del representante de EXPOHOGAR]
+
+https://docs.google.com/document/d/1jr_wlWRF3MtDzb8rCBY_plVACNt3MOAUccaTX8BVlIA/edit?usp=sharing
 
 
             </pre>
