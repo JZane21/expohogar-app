@@ -1,11 +1,39 @@
 <template>
   <div class="bg-slate-100 w-full h-screen p-10 overflow-y-auto">
-    <h1 class="text-3xl font-bold">Fase de Control de Calidad y blablabla </h1>
-    <img src="../assets/images/FaseInicio/pato.jpg" alt="Aqui va una imagen chida :D" class="my-4">
-    <div class="text-gray-500">Lo de arriba es que si gustan colocar imagenes, cambien el pato
+    <h1 class="text-3xl font-bold">Fase de Control de Calidad</h1>
+    <div class="flex w-full justify-center items-center">
+      <img src="../assets/images/FaseControlCalidad/control-calidad.jpg" alt="Aqui va una imagen chida :D"
+      class="my-4 rounded-xl shadow-xl w-[500px]">
     </div>
+    <div class="text-gray-500">En esta sección, se presentará a detalle acerca de la
+      face de control de calidad de la página web e-business de la empresa Expo-Hogar
+    </div>
+
+    <div class="container mx-auto">
+    <h1 class="text-3xl font-bold mb-4">Fase de Control de Calidad e Implementación</h1>
+    <section>
+      <h2 class="text-2xl font-semibold mb-2">Introducción</h2>
+      <section>
+        <p>Se analizará detalladamente el control de calidad de la aplicación, realizado de forma continua en cada Sprint de desarrollo. Todo el proceso se llevará a cabo durante el tiempo establecido con Expohogar o el especificado en el contrato.</p>
+      </section>
+    </section>
+    <section>
+      <h2 class="text-2xl font-semibold mb-2">Pruebas y Control de Calidad</h2>
+      Para un control de calidad efectivo, se planifica una estructura de pruebas detallada. Esta incluye: número del caso de prueba, user-story, pantalla/componente, pasos de prueba ordenados y resultados esperados. En caso de bugs, se reportan con user-story, descripción, pasos de replicación y prioridad para su solución. Este enfoque estructurado permite a los desarrolladores replicar y solucionar fácilmente las fallas encontradas.
+    </section>
+    <section>
+      <h2 class="text-2xl font-semibold mb-2">Pruebas Unitarias</h2>
+      Se emplearán pruebas unitarias con Jest en VueJS para optimizar el tiempo de prueba. Estas pruebas verificarán las funcionalidades de los componentes, asegurando respuestas visibles para el usuario tras ejecutar varias acciones en la página web.
+    </section>
+    <section>
+      <h2 class="text-2xl font-semibold mb-2">Jenkins e Integración Continua</h2>
+      Para mantener un control continuo del producto tras su despliegue y garantizar actualizaciones efectivas en caso de fallos en producción, se optará por Jenkins, una herramienta de integración continua de código abierto. Jenkins permite integrar diversas herramientas de automatización, incluyendo Jest, para un control de calidad óptimo incluso en plazos cortos.
+    </section>
+  </div>
+
     <h2 class="text-xl font-bold mt-4">Términos de Referencia </h2>
-    <p class="text-gray-700">Esta es una prueba de como se ve la fase de Calidad :D</p>
+    <a class="text-blue-400 hover:font-semibold hover:text-blue-800" href="https://docs.google.com/document/d/1jw7w5Yo1aNLukxIm6XGb5wM7Cqp6xq3WwU-owBxqP6w/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Herramientas de gestion de proyectos</a>
+  <!--  /////////////////////////////////////////-->
 
     <h2 class="text-3xl font-bold mt-4 mb-8">Seleccion del servidor, configuración y lanzamiento del portal web</h2>
 
