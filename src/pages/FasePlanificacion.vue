@@ -274,21 +274,21 @@
                     </ul>
                 </div>
             </div>
-            <ul class="list-disc pl-6 m-2 mx-8">
-                <h2 class="text-xl font-semibold mb-4">Sobre las herramientas para la Planificación del Proyecto y el
-                    Producto</h2>
-                <li>
-                    <a class="text-blue-400 hover:font-semibold hover:text-blue-800"
-                        href="https://trello.com/b/NDo5RIlb/gesti%C3%B3n-de-proyectos-inform%C3%A1ticos" target="_blank"
-                        rel="noopener noreferrer">Trello - Planificación del Proyecto</a>
-                </li>
-                <li>
-                    <a class="text-blue-400 hover:font-semibold hover:text-blue-800"
-                        href="hhttps://docs.google.com/document/d/1BrAdWcf2sbmt5mcbptMUI8ozEF_yth_pL_JyMH5Cb84/edit?usp=sharing"
-                        target="_blank" rel="noopener noreferrer">Documento - Fase de Planificación</a>
-                </li>
-            </ul>
         </div>
+        <h2 class="text-xl font-semibold mb-4">Sobre las herramientas para la Planificación del Proyecto y el
+            Producto</h2>
+        <ul class="list-disc pl-6 m-2 mx-8">
+            <li>
+                <a class="text-blue-400 hover:font-semibold hover:text-blue-800"
+                    href="https://trello.com/b/NDo5RIlb/gesti%C3%B3n-de-proyectos-inform%C3%A1ticos" target="_blank"
+                    rel="noopener noreferrer">Trello - Planificación del Proyecto</a>
+            </li>
+            <li>
+                <a class="text-blue-400 hover:font-semibold hover:text-blue-800"
+                    href="https://docs.google.com/document/d/1BrAdWcf2sbmt5mcbptMUI8ozEF_yth_pL_JyMH5Cb84/edit?usp=sharing"
+                    target="_blank" rel="noopener noreferrer">Documento - Fase de Planificación</a>
+            </li>
+        </ul>
     </div>
 </template>
 
