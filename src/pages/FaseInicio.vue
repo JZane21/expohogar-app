@@ -74,7 +74,7 @@
 
       <!-- Fase de Inicio -->
       <h2 class="text-xl font-semibold mb-4">Fase de Inicio</h2>
-      <div class="overflow-y-auto max-h-96 p-4 border border-gray-300 rounded-lg mb-6">
+      <div class="overflow-y-auto max-h-96 p-4 border border-gray-300 rounded-lg mb-16">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               
               <!-- Desarrollo del Sitio Web para EXPOHOGAR -->
