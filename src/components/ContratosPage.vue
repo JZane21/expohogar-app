@@ -65,7 +65,9 @@ _____________________
 _____________________
 [Nombre y firma del representante de EXPOHOGAR]
 
-https://docs.google.com/document/d/1jr_wlWRF3MtDzb8rCBY_plVACNt3MOAUccaTX8BVlIA/edit?usp=sharing
+<a class="text-blue-400 hover:font-semibold hover:text-blue-800" href="https://docs.google.com/document/d/1jr_wlWRF3MtDzb8rCBY_plVACNt3MOAUccaTX8BVlIA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">contrato inicio</a>
+
+
 
 
             </pre>
@@ -128,7 +130,8 @@ _____________________
 _____________________
 [Nombre y firma del representante de EXPOHOGAR]
 
-https://docs.google.com/document/d/1jr_wlWRF3MtDzb8rCBY_plVACNt3MOAUccaTX8BVlIA/edit?usp=sharing
+
+<a class="text-blue-400 hover:font-semibold hover:text-blue-800" href="https://docs.google.com/document/d/1jr_wlWRF3MtDzb8rCBY_plVACNt3MOAUccaTX8BVlIA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">contrato final</a>
 
 
             </pre>
