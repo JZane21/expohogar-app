@@ -32,7 +32,7 @@
   </div>
 
     <h2 class="text-xl font-bold mt-4">Términos de Referencia </h2>
-    <a class="text-blue-400 hover:font-semibold hover:text-blue-800" href="https://docs.google.com/document/d/1jw7w5Yo1aNLukxIm6XGb5wM7Cqp6xq3WwU-owBxqP6w/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Herramientas de gestion de proyectos</a>
+    <a class="text-blue-400 hover:font-semibold hover:text-blue-800" href="https://docs.google.com/document/d/1jw7w5Yo1aNLukxIm6XGb5wM7Cqp6xq3WwU-owBxqP6w/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Toda la información se encuentra en este documento de la Fase de Control de Calidad</a>
   <!--  /////////////////////////////////////////-->
 
     <h2 class="text-3xl font-bold mt-4 mb-8">Seleccion del servidor, configuración y lanzamiento del portal web</h2>
