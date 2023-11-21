@@ -1,13 +1,12 @@
 <script setup lang="ts">
-import NavigationBar from './NavigationBar.vue';
-
+import NavigationBar from "./NavigationBar.vue";
 </script>
 
 <template>
   <div class="flex flex-col min-h-screen w-full justify-start">
     <header>
       <NavigationBar />
-      <RouterView/>
+      <RouterView />
     </header>
     <!-- 
     <footer class="mt-auto p-4 bg-gray-200 w-full">
